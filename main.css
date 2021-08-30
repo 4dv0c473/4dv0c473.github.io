@@ -11,3 +11,9 @@ h1, h2, h3, h4, h5, h6 {
 p.comment {
     color: #7b7b7b;
 }
+
+@media only screen and (min-width: 768px) {
+    h1, h2, h3, h4, h5, h6, p {
+        width: 50%;
+    }
+}
